@@ -6,9 +6,10 @@ import org.testng.annotations.Test;
 
 import base.TestBase;
 
-public class FirstTestcase extends TestBase {	
-	
+public class FirstTestcase extends TestBase {
+
 	@Test
+	
 	public static void ReadMeTest()
 	{
 		// TODO Auto-generated method stub		
@@ -17,7 +18,7 @@ public class FirstTestcase extends TestBase {
 		WebElement remember = driver.findElement(By.xpath(locators.getProperty("remember")));
 		WebElement tools = driver.findElement(By.xpath(locators.getProperty("tools")));
 		WebElement connect = driver.findElement(By.xpath(locators.getProperty("connect")));
-		WebElement repos = driver.findElement(By.xpath(locators.getProperty("repos")));	
+		WebElement repos = driver.findElement(By.xpath(locators.getProperty("repos")));
 		
 		System.out.println(intro.getText());
 		System.out.println(remember.getText());

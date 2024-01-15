@@ -14,21 +14,20 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -61,15 +60,6 @@
 			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
 			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
 			<attribute name="maven.version" value="4.16.1"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/User/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar" sourcepath="C:/Users/User/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi"/>
-			<attribute name="maven.version" value="5.2.5"/>
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
