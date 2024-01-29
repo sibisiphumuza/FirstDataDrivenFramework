@@ -15,7 +15,7 @@ import org.testng.annotations.DataProvider;
 
 public class ReadXlsData {
 
-	@DataProvider(name="ReadMeTest")
+	@DataProvider(name="TestExecution")
 	public String[][] getData(Method m)
 	{
 		
@@ -43,7 +43,6 @@ public class ReadXlsData {
 				for(int j=0;j<totalCols;j++)
 				{
 					testData[i-1][j]=format.formatCellValue(sheetName.getRow(i).getCell(j));
-					System.out.println(testData[i-1][j]);
 				}
 			}
 			

@@ -6,8 +6,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadPropertyFile {
-
-	public static void main(String[] args) {
+	
+	public static void readProperties()
+	{
 		// TODO Auto-generated method stub		
 		try 
 		{
@@ -27,7 +28,6 @@ public class ReadPropertyFile {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 
 }

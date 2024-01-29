@@ -5,7 +5,7 @@
     <classes>
       <class name="testcases.FirstTestcase">
         <methods>
-          <include name="ReadMeTest"/>
+          <include name="TestExecution" invocation-numbers="1 2 3 4 5 6"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
